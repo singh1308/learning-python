@@ -141,11 +141,14 @@ print(s)'''
 
 '''for i in range (1,10+1):
 	print (i)'''
-print ("Ajay "*10)
+'''print ("Ajay "*10)
 x=input()
 x=int(x)
 for a in range (x):
-	print ("* "*x)
+	print ("* "*x)'''
+
+for i in range (10, 100):
+	print (100-i)
 
 
 
