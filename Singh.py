@@ -147,9 +147,43 @@ x=int(x)
 for a in range (x):
 	print ("* "*x)'''
 
-for i in range (10, 100):
-	print (100-i)
+'''for i in range (10, 100):
+	print (100-i)'''
 
+'''for i in range (2, 10):
+	if (i%2==0):
+		print (i)'''
 
+'''a,b =input ("inter to number").split()
+a=int(a)
+b=int(b)
+for i in range (a, b):
+	if (i%2!=0):
+		print (i)'''
 
+'''odd & even number culculation
+c=0
+d=0
+a,b =input ("inter to number").split()
+a=int(a)
+b=int(b)
+for i in range (a, b):
+	if (i%2==0):
+		c=i+c
+	else:
+		d=i+d
+print ("sum number totall-", (i+c))
+print ("visum number totall-", (i+d))'''
 
+c=1
+d=1
+a,b =input ("inter to number").split()
+a=int(a)
+b=int(b)
+for i in range (a, b):
+	if (i%2==0):
+		c=i+c
+	else:
+		d=i+d
+	print (c*c)
+	print (d*d)
