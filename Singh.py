@@ -175,15 +175,12 @@ for i in range (a, b):
 print ("sum number totall-", (i+c))
 print ("visum number totall-", (i+d))'''
 
-c=1
-d=1
+c=0
+d=0
 a,b =input ("inter to number").split()
 a=int(a)
 b=int(b)
 for i in range (a, b):
 	if (i%2==0):
-		c=i+c
-	else:
-		d=i+d
-	print (c*c)
-	print (d*d)
+		c=c+i*i
+		print (c)
